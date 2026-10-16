@@ -43,8 +43,8 @@ So the workflow has two rules:
 - - `lessons Summary.md`: summary of what worked and failed, with separate notes in `lessons-retail.md` and `lessons-gym.md`
 
 ## How to read an example
-Each file has three parts: **A. AI draft**, **B. Validation (AI + checklist)**, **C. My edits**.
-Part C is what I changed by hand and why. That is the evidence that I did not treat AI output as final.
+Each file has three parts: **AI draft ( -requirements-draft)**, **Validation ( -validation-report)(AI + checklist)**, **My edits ( -requirement-final)**.
+Part (requirement-final) is what I changed by hand and why. That is the evidence that I did not treat AI output as final.
 
 ## 60-second explanation
 "I split the BA workflow into stakeholder identification, requirement extraction, user stories, acceptance criteria
