@@ -3,7 +3,7 @@
 A small, documented **prompt workflow** that turns a plain-language business problem into BA artefacts
 (stakeholders, requirements, user stories, acceptance criteria, KPIs, risks) and then **validates its own output**.
 
-It is not an app. It is a repeatable method, tested on 2 problems (retail inventory, fitness membership).
+It is not an app. It is a repeatable method, tested on 2 problems (retail inventory, gym membership).
 
 ## Why I built it
 LLMs are fast at drafting BA documents but they invent facts, write vague requirements and contradict themselves.
@@ -40,7 +40,7 @@ So the workflow has two rules:
 - `validation-checklist.md`: my own manual checklist
 - `retail-requirements-draft.md`, `retail-validation-report.md`, `retail-requirements-final.md`: retail example (draft, review, fixed version)
 - `gym-requirements-draft.md`, `gym-validation-report.md`, `gym-requirements-final.md`: gym example (draft, review, fixed version)
-- - `lessons Summary.md`: summary of what worked and failed, with separate notes in `lessons-retail.md` and `lessons-gym.md`
+- - `lessons-summary.md`: summary of what worked and failed, with separate notes in `lessons-retail.md` and `lessons-gym.md`
 
 ## How to read an example
 Each file has three parts: **AI draft ( -requirements-draft)**, **Validation ( -validation-report)(AI + checklist)**, **My edits ( -requirement-final)**.
