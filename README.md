@@ -36,10 +36,11 @@ So the workflow has two rules:
 | 6 Validation | Gap, contradiction, hallucination report | Reviewer repeating the author's mistakes |
 
 ## Repo contents
-- `prompts.md` : the reusable prompts (copy, paste, replace `{PROBLEM}`)
-- `validation-checklist.md` : my own manual checklist (used with the AI validation prompt)
-- `examples/` : 4 worked examples. Each has the problem, the AI draft, the validation findings and **my review**
-- `lessons.md` : what worked, what failed
+- `prompts.md`: the reusable prompts (copy, paste, replace `{PROBLEM}`)
+- `validation-checklist.md`: my own manual checklist
+- `retail-requirements-draft.md`, `retail-validation-report.md`, `retail-requirements-final.md`: retail example (draft, review, fixed version)
+- `gym-requirements-draft.md`, `gym-validation-report.md`, `gym-requirements-final.md`: gym example (draft, review, fixed version)
+- `lessons.md`: what worked, what failed
 
 ## How to read an example
 Each file has three parts: **A. AI draft**, **B. Validation (AI + checklist)**, **C. My edits**.
